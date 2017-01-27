@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Python Starter Application</title>
+</head>
+<body>
+	<table>
+	<tr>
+		<th></th>
+		<th>Action</th>
+		<th></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>Upload</td>
+		<td><form id="formUpload" action="/uploads" method="POST" enctype = "multipart/form-data">
+			<input type = "text" value="Encryption Key" name="key">
+			<input type = "file" name="file_upload">
+			<input type="submit" value="Submit" ></form></td>
+  </tr>
+  <tr>
+		<td>2</td>
+		<td>Download File</td>
+		<td><form id="formDownload" action="/download" method="GET" enctype = "multipart/form-data">
+			<input type = "text" value="File Name" name="file_name">
+			<input type = "text" value="Decryption Key" name="key">
+			<input type="submit" value="Submit" ></form></td>
+  </tr>
+   <tr>
+		<td>3</td>
+		<td>List Container Contents</td>
+		<td><form id="formList" action="/list" method="GET" enctype = "multipart/form-data">
+		<input type="submit" value="Submit" ></form></td>
+  </tr>
+  <tr>
+		<td>4</td>
+		<td>Delete File</td>
+		<td><form id="formDelete" action="/delete" method="GET" enctype = "multipart/form-data">
+			<input type = "text" value="File Name" name="file_name">
+			<input type="submit" value="Submit" ></form></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,3 @@
+This is line 1 of another file 
+This is not line 3
+This is line 3
