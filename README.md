@@ -19,7 +19,7 @@ A utility to provide "Storage as a Service" which will securely store and retrie
 6. Allow user to delete all *.org Bluemix files, then move the *.bak files to the originals folder. <br>
 
 
-## Run the app locally <br>
+### Run the app locally <br>
 
 1. [Install Python][] <br>
 2. Download and extract the starter code from the Bluemix UI <br>
@@ -27,6 +27,6 @@ A utility to provide "Storage as a Service" which will securely store and retrie
 4. Run `python server.py` <br>
 5. Access the running app in a browser at http://localhost:7000 <br>
 
-## Runn the app on bluemix using 'cf push <application_name>' on Command Line. <br>
+#### Run the app on bluemix using 'cf push /<application_name>/' on Command Line. <br>
 
 [Install Python]: https://www.python.org/downloads/
